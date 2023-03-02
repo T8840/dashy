@@ -1,13 +1,13 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Online Tools
+  description: Welcome to use Online Tools!
   navLinks:
   - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+    path: https://github.com/t8840
+  - title: About Me
+    path: https://t8840.github.io
 
 # Optional app settings and configuration
 appConfig:
@@ -15,33 +15,64 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
+- name: 前端工具
+  icon: fas fa-cog
   items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+  - title: 时间戳转换
+    description: 时间戳转换
+    icon: far fa-clock-o
+    url: https://tool.lu/timestamp/
     target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - title: 二维码生成
+    description: 二维码生成
+    icon: far fa-vcard
+    url: https://cli.im/
+    target: newtab  
+- name: 文档
+  icon: fas fa-book
+  items:
+  - title: Python
+    description: Python Program Language
+    icon: far fa-language
+    url: https://t8840.github.io/python
+    target: newtab
+  - title: Go
+    description: Go Program Language
+    icon: far fa-language
+    url: https://t8840.github.io/go
+    target: newtab
+   - title: Java
+    description: Java Program Language
+    icon: far fa-language
+    url: https://t8840.github.io/java
+    target: newtab   
+   - title: JavaScript
+    description: JavaScript Program Language
+    icon: far fa-language
+    url: https://t8840.github.io/javaScript
+    target: newtab
+   - title: C++
+    description: C++ Program Language
+    icon: far fa-language
+    url: https://t8840.github.io/cplus
+    target: newtab
+   - title: Solidity
+    description: Solidity Program Language in Web3
+    icon: far fa-language
+    url: https://t8840.github.io/solidity
+    target: newtab 
+   - title: MySQL
+    description: MySQL
+    icon: far fa-bar-chart
+    url: https://t8840.github.io/mysql
+    target: newtab         
+   - title: MongoDB
+    description: MongoDB
+    icon: far fa-bar-chart-o
+    url: https://t8840.github.io/mongodb
+    target: newtab             
+   - title: Redis
+    description: Redis 
+    icon: far fa-line-chart
+    url: https://t8840.github.io/redis
+    target: newtab                
